@@ -1,0 +1,15 @@
+{
+    "name": "julio/smtp-html",
+    "description": "Projeto desenvolvido com intuito de agilizar processos de criação de html de email e documentos",
+    "autoload": {
+        "psr-4": {
+            "app\\": "app/"
+        },
+        "files": [
+            "app/config/config.php"
+        ]
+    },
+    "require": {
+        "twig/twig": "^3.5"
+    }
+}
